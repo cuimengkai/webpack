@@ -12,6 +12,9 @@ module.exports = {
 				loader:'style-loader!css-loader'
 			}
 		]
-	}
+	},
+	plugins:[
+	new webpack.BannerPlugin('This file is created by trek')
+	]
 
 }

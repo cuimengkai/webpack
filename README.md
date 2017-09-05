@@ -49,6 +49,25 @@ webpack在执行的时候 除了使用命令行传递参数。还可以通过指
 创建一个webpack.config.js文件
 执行指令 webpack 
 
+plugins
+webpack中插件的应用可以完成更多loader不能完成的功能
+插件一般都是在webpack的配置信息plugins选项中指定
+webpack本身也内置了一些常用的插件。当然还可以通过npm安装第三方插件
+
+开发环境下 
+
+如果不想每次编译之后 都进行打包输出 可以使用
+webpack  --progress --color --watch
+
+当然使用webpack-dev-server开发服务器更适合 它将默认监听端口8080 启用一个express静态资源web服务器    并且以监听的模式自动运行webpack 在浏览器中使用
+http://localhost:8080 or http://127.0.0.1:8080 or http://ip:port
+来浏览项目中的页面和编译后的资源输出 并且通过一个socket.io服务实时监听它们的变化并且自动刷新
+首先安装
+必须全局安装 才能在任意路径下使用webpack-dev-server
+npm install webpack-dev-server -g
+运行
+webpack-dev-server --progress --colors
+
 
 
 
