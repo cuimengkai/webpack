@@ -1,0 +1,26 @@
+{
+  "name": "webpack_",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuimengkai/webpack.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "cuimengkai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cuimengkai/webpack/issues"
+  },
+  "homepage": "https://github.com/cuimengkai/webpack#readme",
+  "devDependencies": {
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
